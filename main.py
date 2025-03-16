@@ -3,7 +3,7 @@ import datetime
 import argparse
 from docx import Document
 
-#client = openai.OpenAI(api_key="Private key de Open Ai")
+client = openai.OpenAI(api_key="Private key de Open Ai")
 
 #Aca seteamos el prompt, se puede modificar para el objetivo que quiera lograr para nuestra App
 def obtener_texto_llm(tema):

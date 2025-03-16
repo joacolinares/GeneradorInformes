@@ -4,20 +4,20 @@ Este script permite generar informes en formato Word automáticamente a partir d
 
 ##  Instalación
 
-1. Clonar el repositorio:
+# Clonar el repositorio:
 git clone https://github.com/joacolinares/GeneradorInformes  
 
-2. Crear un entorno virtual y activarlo:
+# Crear un entorno virtual y activarlo:
 
-# Linux/macOS
+Linux/macOS
 python -m venv venv
 source venv/bin/activate
 
-# Windows
+Windows
 python -m venv venv
 venv\Scripts\activate
 
-3. Instalar dependencias:
+# Instalar dependencias:
 
 pip install -r requirements.txt
 
